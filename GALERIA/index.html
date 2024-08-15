@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERIA DE IMAGENS INTERATIVA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GALERIA DE IMAGENS</h1>
+    </header>
+
+    <main>
+        <section id="gallery">
+            <div class="gallery-item">
+                <img src="img1.jpg" alt="Imagem 1">
+            </div>
+            <div class="gallery-item">
+                <img src="img2.jpg" alt="Imagem 2">
+            </div>
+            <div class="gallery-item">
+                <img src="img3.jpg" alt="Imagem 3">
+            </div>
+            <!-- Adicione mais imagens conforme necessário -->
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Nycolle Martins. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
